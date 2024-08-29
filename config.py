@@ -12,9 +12,9 @@ MaxRandomDelay = 120
 # Accounts will be checked in the order they are listed
 AccountList = [
     {
-        "account_name": "Account 1",  # A custom name for the account (not important, just for logs)
+        "account_name": "Account kalip",  # A custom name for the account (not important, just for logs)
         "Authorization": "Bearer 1724902775619vt81wZu89saLNxtegQDsJsF36RvmCH8V3AfSGqvJNZDsG95CjFjdiB0LaTfnBGq16642866145",  # To get the token, refer to the README.md file
-        "UserAgent": "Your UserAgent",  # Refer to the README.md file to obtain a user agent
+        "UserAgent": "Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36",  # Refer to the README.md file to obtain a user agent
         "Proxy": {
             
   "http": "http://113.195.224.222:9999",
@@ -218,7 +218,7 @@ AccountList = [
 # This feature is optional, and you can disable it by setting "is_active" to False.
 telegramBotLogging = {
     "is_active": False,  # Set it to True if you want to use it, and make sure to fill out the below fields
-    "bot_token": "",  # HTTP API access token from https://t.me/BotFather ~ Start your bot after creating it
+    "bot_token": "7319976379:AAECGy-Nn8uAI0NtUucs265g69C5iFD1lcE",  # HTTP API access token from https://t.me/BotFather ~ Start your bot after creating it
     # Configure the what you want to receive logs from the bot
     "messages": {
         "general_info": True,  # General information
