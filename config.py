@@ -1,4 +1,4 @@
-
+AccountsRecheckTime = 10
 MaxRandomDelay = 120
 
 
