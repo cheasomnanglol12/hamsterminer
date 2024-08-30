@@ -1,7 +1,4 @@
-AccountsRecheckTime = 10
 MaxRandomDelay = 120
-
-
 AccountList = [
     {
         "account_name": "heng1",  
