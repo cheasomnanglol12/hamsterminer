@@ -15,8 +15,7 @@ AccountList = [
         "account_name": "Account kalip",  # A custom name for the account (not important, just for logs)
         "Authorization": "Bearer 1724902775619vt81wZu89saLNxtegQDsJsF36RvmCH8V3AfSGqvJNZDsG95CjFjdiB0LaTfnBGq16642866145",  # To get the token, refer to the README.md file
         "UserAgent": "Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36",  # Refer to the README.md file to obtain a user agent
-        "Proxy": {
-            
+        "Proxy": {        
   "http": "http://113.195.224.222:9999",
   "http": "http://149.129.226.9:8080",
   "http": "http://120.42.224.254:21212",
