@@ -1,4 +1,4 @@
-MaxRandomDelay = 120
+MaxRandomDelay = 0
 AccountList = [
     {
         "account_name": "heng1",  
