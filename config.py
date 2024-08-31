@@ -38,7 +38,7 @@ AccountList = [
         "telegram_chat_id": "1439771387",
     },
     {
-        "account_name": "Account 2",
+        "account_name": "Account os kalip",
         "Authorization": "Bearer 1725016141007gWBMv81HJwTYWRnClBPvHB3ZwBooOGyb5O0WL8YOPZ2HiD6ok4bYFnSzC21tGngX6896218626",
         "UserAgent": "Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36",
         "Proxy": {
@@ -64,8 +64,8 @@ AccountList = [
         "telegram_chat_id": "1439771387",
     },
     {
-        "account_name": "Account 3",
-        "Authorization": "Bearer NEW_TOKEN_FOR_ACCOUNT_3",
+        "account_name": "kalip heng",
+        "Authorization": "Bearer 1725103852158IDq99Lj6MjxnovYqrDglUVt3eoe1Bdk6rMb1DVqQQdF2IGgf8fJzPoAo7v6g2U2C7031802391",
         "UserAgent": "Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36",
         "Proxy": {
             "http": "http://120.42.224.254:21212"
