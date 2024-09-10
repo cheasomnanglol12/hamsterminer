@@ -16,7 +16,7 @@ AccountList = [
         "Authorization": "Bearer 1725952799827CoiYE5NKNEDvedEVQhWdT88DouC0dicw08Q0HP95dMHqqwmFGpS9BvIb9wEFqmAl7149859105",  # Account 1 Bearer token
         "UserAgent": "Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36",  # Provided UserAgent
         "Proxy": {
-            "https": "https://173.249.34.184:3128",  # Proxy for Account 1
+            "http": "http://139.255.5.98:443",  # Fixed proxy for Account 1 with http
         },
         "config": {
             "auto_tap": True,
@@ -41,11 +41,11 @@ AccountList = [
         "telegram_chat_id": "7149859105",  # First Telegram chat ID for Account 1
     },
     {
-        "account_name": "Account 2",  # Second account configuration
+        "account_name": "hengoszin",  # Second account configuration
         "Authorization": "Bearer 172595298842289yMxIWMB3UE6AMouWE3123DDI7pQ7B456tBzFYEAFrZpsCiJCYD7ithjcIJb4Wi5001451526",  # Account 2 Bearer token
         "UserAgent": "Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36",  # Provided UserAgent
         "Proxy": {
-            "https": "https://161.35.70.249:3128",  # Proxy for Account 2
+            "http": "http://45.233.90.10:443",  # Fixed proxy for Account 2 with http
         },
         "config": {
             "auto_tap": True,
@@ -74,7 +74,7 @@ AccountList = [
         "Authorization": "Bearer 1725953159405kGu1IiqUc60wj7AQUfFoG5umoUBBJYp4knlMJMkgMDP5vVlUFaBOncnR2ZBW0Anj5129273722",  # Account 3 Bearer token
         "UserAgent": "Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36",  # Provided UserAgent
         "Proxy": {
-            "https": "https://178.250.88.254:80",  # Proxy for Account 3
+            "http": "http://218.145.131.182:443",  # Fixed proxy for Account 3 with http
         },
         "config": {
             "auto_tap": True,
@@ -96,7 +96,7 @@ AccountList = [
             "show_num_buy_options": 0,
             "max_promo_games_per_round": 3,
         },
-        "telegram_chat_id": "1439771387",  # First Telegram chat ID for Account 3 (you can change this if needed)
+        "telegram_chat_id": "1439771387",  # First Telegram chat ID for Account 3
     },
 ]
 
