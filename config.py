@@ -16,7 +16,7 @@ AccountList = [
         "Authorization": "Bearer 1725952799827CoiYE5NKNEDvedEVQhWdT88DouC0dicw08Q0HP95dMHqqwmFGpS9BvIb9wEFqmAl7149859105",  # Account 1 Bearer token
         "UserAgent": "Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36",  # Provided UserAgent
         "Proxy": {
-            "http": "http://139.255.5.98:443",  # Fixed proxy for Account 1 with http
+            "http": "http://113.195.224.222:9999",  # Updated proxy for Account 1
         },
         "config": {
             "auto_tap": True,
@@ -45,7 +45,7 @@ AccountList = [
         "Authorization": "Bearer 172595298842289yMxIWMB3UE6AMouWE3123DDI7pQ7B456tBzFYEAFrZpsCiJCYD7ithjcIJb4Wi5001451526",  # Account 2 Bearer token
         "UserAgent": "Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36",  # Provided UserAgent
         "Proxy": {
-            "http": "http://45.233.90.10:443",  # Fixed proxy for Account 2 with http
+            "http": "http://149.129.226.9:8080",  # Updated proxy for Account 2
         },
         "config": {
             "auto_tap": True,
@@ -74,7 +74,7 @@ AccountList = [
         "Authorization": "Bearer 1725953159405kGu1IiqUc60wj7AQUfFoG5umoUBBJYp4knlMJMkgMDP5vVlUFaBOncnR2ZBW0Anj5129273722",  # Account 3 Bearer token
         "UserAgent": "Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36",  # Provided UserAgent
         "Proxy": {
-            "http": "http://218.145.131.182:443",  # Fixed proxy for Account 3 with http
+            "http": "http://120.42.224.254:21212",  # Updated proxy for Account 3
         },
         "config": {
             "auto_tap": True,
