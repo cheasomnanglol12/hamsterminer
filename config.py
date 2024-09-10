@@ -12,8 +12,8 @@ MaxRandomDelay = 120
 # Accounts will be checked in the order they are listed
 AccountList = [
     {
-        "account_name": "Account kalip",  # A custom name for the account (not important, just for logs)
-        "Authorization": "Bearer 1724902775619vt81wZu89saLNxtegQDsJsF36RvmCH8V3AfSGqvJNZDsG95CjFjdiB0LaTfnBGq16642866145",  # To get the token, refer to the README.md file
+        "account_name": "cidnha",  # A custom name for the account (not important, just for logs)
+        "Authorization": "Bearer 1725952799827CoiYE5NKNEDvedEVQhWdT88DouC0dicw08Q0HP95dMHqqwmFGpS9BvIb9wEFqmAl7149859105",  # To get the token, refer to the README.md file
         "UserAgent": "Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36",  # Refer to the README.md file to obtain a user agent
         "Proxy": {           
             "http": "http://113.195.224.222:9999"
@@ -38,8 +38,8 @@ AccountList = [
         "telegram_chat_id": "1439771387",
     },
     {
-        "account_name": "Account os kalip",
-        "Authorization": "Bearer 1725016141007gWBMv81HJwTYWRnClBPvHB3ZwBooOGyb5O0WL8YOPZ2HiD6ok4bYFnSzC21tGngX6896218626",
+        "account_name": "heng os zin",
+        "Authorization": "Bearer 172595298842289yMxIWMB3UE6AMouWE3123DDI7pQ7B456tBzFYEAFrZpsCiJCYD7ithjcIJb4Wi5001451526",
         "UserAgent": "Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36",
         "Proxy": {
             "http": "http://149.129.226.9:8080"
@@ -64,8 +64,8 @@ AccountList = [
         "telegram_chat_id": "1439771387",
     },
     {
-        "account_name": "kalip heng",
-        "Authorization": "Bearer 1725103852158IDq99Lj6MjxnovYqrDglUVt3eoe1Bdk6rMb1DVqQQdF2IGgf8fJzPoAo7v6g2U2C7031802391",
+        "account_name": "mine",
+        "Authorization": "Bearer 1725953159405kGu1IiqUc60wj7AQUfFoG5umoUBBJYp4knlMJMkgMDP5vVlUFaBOncnR2ZBW0Anj5129273722",
         "UserAgent": "Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36",
         "Proxy": {
             "http": "http://120.42.224.254:21212"
