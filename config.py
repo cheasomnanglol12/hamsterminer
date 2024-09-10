@@ -1,7 +1,7 @@
 # ---------------------------------------------#
 # Configuration
 # ---------------------------------------------#
-# Recheck time in seconds to check all accounts again (60 seconds = 1 minute and 0 means no recheck)
+# Recheck time in seconds to recheck all accounts (60 seconds = 1 minute and 0 means no recheck)
 AccountsRecheckTime = 300
 
 # Adds a random delay to the AccountsRecheckTime interval to make it more unpredictable and less detectable.
@@ -13,10 +13,10 @@ MaxRandomDelay = 120
 AccountList = [
     {
         "account_name": "cidnha",  # A custom name for the account (not important, just for logs)
-        "Authorization": "Bearer 1725952799827CoiYE5NKNEDvedEVQhWdT88DouC0dicw08Q0HP95dMHqqwmFGpS9BvIb9wEFqmAl7149859105",  # To get the token, refer to the README.md file
-        "UserAgent": "Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36",  # Refer to the README.md file to obtain a user agent
-        "Proxy": {           
-            "http": "http://113.195.224.222:9999"
+        "Authorization": "Bearer 1725952799827CoiYE5NKNEDvedEVQhWdT88DouC0dicw08Q0HP95dMHqqwmFGpS9BvIb9wEFqmAl7149859105",  # Account 1 Bearer token
+        "UserAgent": "Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36",  # Provided UserAgent
+        "Proxy": {
+            "https": "https://173.249.34.184:3128",  # Proxy for Account 1
         },
         "config": {
             "auto_tap": True,
@@ -25,6 +25,9 @@ AccountList = [
             "auto_get_daily_task": True,
             "auto_get_task": True,
             "auto_finish_mini_game": True,
+            "auto_claim_daily_combo": True,
+            "auto_daily_combo_enable": True,
+            "auto_daily_combo_max_price": 5_000_000,
             "auto_playground_games": True,
             "auto_upgrade": True,
             "auto_upgrade_start": 2_000_000,
@@ -35,14 +38,14 @@ AccountList = [
             "show_num_buy_options": 0,
             "max_promo_games_per_round": 3,
         },
-        "telegram_chat_id": "1439771387",
+        "telegram_chat_id": "7149859105",  # First Telegram chat ID for Account 1
     },
     {
-        "account_name": "heng os zin",
-        "Authorization": "Bearer 172595298842289yMxIWMB3UE6AMouWE3123DDI7pQ7B456tBzFYEAFrZpsCiJCYD7ithjcIJb4Wi5001451526",
-        "UserAgent": "Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36",
+        "account_name": "Account 2",  # Second account configuration
+        "Authorization": "Bearer 172595298842289yMxIWMB3UE6AMouWE3123DDI7pQ7B456tBzFYEAFrZpsCiJCYD7ithjcIJb4Wi5001451526",  # Account 2 Bearer token
+        "UserAgent": "Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36",  # Provided UserAgent
         "Proxy": {
-            "http": "http://149.129.226.9:8080"
+            "https": "https://161.35.70.249:3128",  # Proxy for Account 2
         },
         "config": {
             "auto_tap": True,
@@ -51,6 +54,9 @@ AccountList = [
             "auto_get_daily_task": True,
             "auto_get_task": True,
             "auto_finish_mini_game": True,
+            "auto_claim_daily_combo": True,
+            "auto_daily_combo_enable": True,
+            "auto_daily_combo_max_price": 5_000_000,
             "auto_playground_games": True,
             "auto_upgrade": True,
             "auto_upgrade_start": 2_000_000,
@@ -61,14 +67,14 @@ AccountList = [
             "show_num_buy_options": 0,
             "max_promo_games_per_round": 3,
         },
-        "telegram_chat_id": "1439771387",
+        "telegram_chat_id": "1439771387",  # Second Telegram chat ID for Account 2
     },
     {
-        "account_name": "mine",
-        "Authorization": "Bearer 1725953159405kGu1IiqUc60wj7AQUfFoG5umoUBBJYp4knlMJMkgMDP5vVlUFaBOncnR2ZBW0Anj5129273722",
-        "UserAgent": "Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36",
+        "account_name": "Account 3",  # Third account configuration
+        "Authorization": "Bearer 1725953159405kGu1IiqUc60wj7AQUfFoG5umoUBBJYp4knlMJMkgMDP5vVlUFaBOncnR2ZBW0Anj5129273722",  # Account 3 Bearer token
+        "UserAgent": "Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36",  # Provided UserAgent
         "Proxy": {
-            "http": "http://120.42.224.254:21212"
+            "https": "https://178.250.88.254:80",  # Proxy for Account 3
         },
         "config": {
             "auto_tap": True,
@@ -77,6 +83,9 @@ AccountList = [
             "auto_get_daily_task": True,
             "auto_get_task": True,
             "auto_finish_mini_game": True,
+            "auto_claim_daily_combo": True,
+            "auto_daily_combo_enable": True,
+            "auto_daily_combo_max_price": 5_000_000,
             "auto_playground_games": True,
             "auto_upgrade": True,
             "auto_upgrade_start": 2_000_000,
@@ -87,8 +96,8 @@ AccountList = [
             "show_num_buy_options": 0,
             "max_promo_games_per_round": 3,
         },
-        "telegram_chat_id": "1439771387",
-    }
+        "telegram_chat_id": "1439771387",  # First Telegram chat ID for Account 3 (you can change this if needed)
+    },
 ]
 
 # ---------------------------------------------#
@@ -100,8 +109,9 @@ AccountList = [
 # If you don't want to use this feature, set "is_active" to False and leave "bot_token" and "uid" fields empty.
 # This feature is optional, and you can disable it by setting "is_active" to False.
 telegramBotLogging = {
-    "is_active": True,
-    "bot_token": "7069215582:AAEXyTWTu4KdhblkgFhG5_IbbtTkZjSEbTo",
+    "is_active": True,  # Set to True to activate Telegram logging
+    "bot_token": "7069215582:AAEXyTWTu4KdhblkgFhG5_IbbtTkZjSEbTo",  # Provided bot token
+    # Configure the what you want to receive logs from the bot
     "messages": {
         "general_info": True,
         "account_info": True,
